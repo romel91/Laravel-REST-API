@@ -8,6 +8,10 @@ use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
+    public function dashboard()
+    {
+        return view('dashboard'); // This will look for a 'dashboard.blade.php' file in resources/views
+    }
     // Get All Users
     public function index()
     {
