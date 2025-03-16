@@ -19,7 +19,7 @@ class AuthController extends Controller
     // Login Form web
     public function showLoginForm()
     {
-        return view('auth.login'); // You can create a 'login.blade.php' view
+        return view('auth.login'); 
     }
 
     // User Registration
